@@ -31,7 +31,7 @@ app.logger.info(sys.version)
 
 
 PATH_TO_CKPT = '/opt/graph_def/frozen_inference_graph.pb'
-PATH_TO_LABELS = '/opt/object_detection_app/labelmap.pbtxt'
+PATH_TO_LABELS = '/opt/tf-obj-det/labelmap.pbtxt'
 
 content_types = {'jpg': 'image/jpeg',
                  'jpeg': 'image/jpeg',
